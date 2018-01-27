@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "",
-    "dev": "nodemon src/index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
