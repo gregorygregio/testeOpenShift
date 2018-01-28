@@ -1,4 +1,4 @@
-console.log("teste");
+console.log("running");
 
 const express = require('express');
 const bodyParser = require('body-parser');
