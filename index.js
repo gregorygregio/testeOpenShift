@@ -14,7 +14,7 @@ app.get("/teste", (req,res) => {
   res.send("Funfando")
 })
 
-
+// 
 // moduloProduto(app);
 // moduloVenda(app);
 
@@ -23,3 +23,4 @@ var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
 
 app.listen(port, ip);
 console.log('Server running on http://%s:%s', ip, port);
+module.exports = app ;

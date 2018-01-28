@@ -1,6 +1,12 @@
 const mongoose = require('mongoose')
+console.log("abrindo database ")
+console.log("abrindo database ")
+console.log("abrindo database ")
+console.log("abrindo database ")
+console.log("abrindo database ")
 mongoose.connect("mongodb://localhost/registroDeVendas",{ useMongoClient: true})
 
+console.log("conectado database ")
 mongoose.connection.on('open', function (ref) {
   console.log('Connected to mongo server.');
 });
